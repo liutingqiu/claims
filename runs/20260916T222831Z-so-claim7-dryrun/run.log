@@ -1,0 +1,31 @@
+Free 9-cell polyominoes examined: 1285
+Total open-tourable boards: 57
+Total geometrically distinct undirected open tours: 94
+
+Distribution by tours per board:
+1 tour(s): 34 boards
+2 tour(s): 15 boards
+3 tour(s): 4 boards
+4 tour(s): 3 boards
+6 tour(s): 1 boards
+
+Exact bounding box: boards / tours
+3 x 4: 7 / 11
+3 x 5: 12 / 17
+4 x 4: 26 / 49
+4 x 5: 11 / 16
+5 x 5: 1 / 1
+
+Exact 4 x 4 bounding box, by tours per board:
+6 tour(s): 1 boards
+4 tour(s): 3 boards
+3 tour(s): 1 boards
+2 tour(s): 7 boards
+1 tour(s): 14 boards
+
+Exact 4 x 4 bounding box, geometric symmetry:
+6 tour(s): 0 symmetric boards, 1 asymmetric boards
+4 tour(s): 2 symmetric boards, 1 asymmetric boards
+3 tour(s): 0 symmetric boards, 1 asymmetric boards
+2 tour(s): 0 symmetric boards, 7 asymmetric boards
+1 tour(s): 0 symmetric boards, 14 asymmetric boards

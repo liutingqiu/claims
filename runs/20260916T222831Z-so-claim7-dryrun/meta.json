@@ -1,0 +1,14 @@
+{
+ "label": "so-claim7-dryrun",
+ "stamp": "20260916T222831Z",
+ "submission_sha256": "a8415922e661e6b07b94efdfef04c533916a3d853fc4b1a36d2bba9edae37042",
+ "exit_code": 0,
+ "wall_seconds": 1,
+ "limits": {
+  "wall_seconds": 600,
+  "cpus": 2,
+  "memory": "4g",
+  "network": "none"
+ },
+ "image": "pursekeeper/rederive:v0"
+}
