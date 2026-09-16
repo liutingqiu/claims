@@ -1,0 +1,497 @@
+[
+ {
+  "n": 1,
+  "title": "Derangements avoiding the pattern 1234",
+  "file": "claims/01-derangements-avoiding-1234.md",
+  "status": "open",
+  "field_tags": [
+   "combinatorics",
+   "permutation patterns",
+   "derangements",
+   "enumeration"
+  ],
+  "keywords": [
+   "pattern avoidance",
+   "1234-avoiding",
+   "fixed-point-free permutations",
+   "longest increasing subsequence",
+   "Av(1234)",
+   "derangements in permutation classes"
+  ],
+  "hardness": "n <= 12 by brute force over all n! permutations in a few minutes (C); all 24 terms by an exact dynamic programme over (used-value bitmask, patience-sorting piles) in about two minutes in C++; n = 21 by a hash-map DP needs a few GB of RAM, n = 24 by the rank-compressed DP needs very little.",
+  "commitment_sha256": "593cae88d2b22dbbe3283cbb3b7db97feb7cce8d37500829c39a3728a3c82b2a",
+  "issue": {
+   "number": 1,
+   "url": "https://github.com/pursekeeper/claims/issues/1",
+   "created_at": "2026-09-16T22:26:13Z"
+  },
+  "reviews": [],
+  "prior_art": [],
+  "verified": null
+ },
+ {
+  "n": 2,
+  "title": "Derangements avoiding the pattern 4321",
+  "file": "claims/02-derangements-avoiding-4321.md",
+  "status": "reserve",
+  "field_tags": [
+   "combinatorics",
+   "permutation patterns",
+   "derangements",
+   "enumeration"
+  ],
+  "keywords": [
+   "pattern avoidance",
+   "4321-avoiding",
+   "fixed-point-free permutations",
+   "longest decreasing subsequence",
+   "Av(4321)"
+  ],
+  "hardness": "as for the 1234 case; the decreasing-pile DP is somewhat faster (about 30 s for n <= 24).",
+  "commitment_sha256": "9a0334ee760e30fc55f94bdf4062be90edef17eaa3fac8d48a2c2b98a4df588b",
+  "issue": null,
+  "reviews": [],
+  "prior_art": [],
+  "verified": null
+ },
+ {
+  "n": 3,
+  "title": "Six further terms of OEIS A252653 (rook-walk-coverable polyominoes)",
+  "file": "claims/03-A252653-rook-walk-coverable-polyominoes.md",
+  "status": "open",
+  "field_tags": [
+   "combinatorics",
+   "polyominoes",
+   "Hamiltonian paths",
+   "graph theory"
+  ],
+  "keywords": [
+   "polyomino",
+   "complete self-avoiding walk",
+   "Hamiltonian path",
+   "cell adjacency graph",
+   "traceable",
+   "rook tour"
+  ],
+  "hardness": "cheap.",
+  "commitment_sha256": "564da16f60b394d42fd49d9042a8029eb4015552a60a0a3654c62bce2d119df3",
+  "issue": {
+   "number": 2,
+   "url": "https://github.com/pursekeeper/claims/issues/2",
+   "created_at": "2026-09-16T22:26:15Z"
+  },
+  "reviews": [],
+  "prior_art": [],
+  "verified": null
+ },
+ {
+  "n": 4,
+  "title": "Three further terms of OEIS A395587",
+  "file": "claims/04-A395587-three-terms.md",
+  "status": "open",
+  "field_tags": [
+   "number theory",
+   "primes",
+   "modular arithmetic",
+   "OEIS extension"
+  ],
+  "keywords": [
+   "smallest prime",
+   "congruence modulo q^5",
+   "first n primes",
+   "p^(q^2) = +-1 mod q^5",
+   "Chinese remainder theorem"
+  ],
+  "hardness": "cheap once one notes that (Z/q^5)* is cyclic of order q^4(q-1) for odd q, so the condition on p reduces to p = +-1 (mod q^3) for odd q and p = +-1 (mod 8) for q = 2; a CRT search over the 2^(n-1) sign choices, stepping through each arithmetic progression to its first prime, finishes in seconds in Python with gmpy2/sympy.",
+  "commitment_sha256": "728f9c79064c32372fc24765a72ad7eddfe636ac4c0fe8a315f9d00f8bdca725",
+  "issue": {
+   "number": 3,
+   "url": "https://github.com/pursekeeper/claims/issues/3",
+   "created_at": "2026-09-16T22:26:18Z"
+  },
+  "reviews": [],
+  "prior_art": [],
+  "verified": null
+ },
+ {
+  "n": 5,
+  "title": "Three further terms of OEIS A396786",
+  "file": "claims/05-A396786-three-terms.md",
+  "status": "reserve",
+  "field_tags": [
+   "number theory",
+   "primes",
+   "modular arithmetic",
+   "OEIS extension"
+  ],
+  "keywords": [
+   "smallest prime",
+   "congruence modulo q^5",
+   "first n primes",
+   "p^(q^3) = +-1 mod q^5"
+  ],
+  "hardness": "cheap; for odd q the condition reduces to p = +-1 (mod q^2), and for q = 2 to p odd (p^8 = 1 mod 32 for every odd p); seconds with the CRT method.",
+  "commitment_sha256": "728f9c79064c32372fc24765a72ad7eddfe636ac4c0fe8a315f9d00f8bdca725",
+  "issue": null,
+  "reviews": [],
+  "prior_art": [],
+  "verified": null
+ },
+ {
+  "n": 6,
+  "title": "Knight-connected and knight-tourable polyominoes",
+  "file": "claims/06-knight-connected-tourable-polyominoes.md",
+  "status": "open",
+  "field_tags": [
+   "recreational mathematics",
+   "chess",
+   "polyominoes",
+   "Hamiltonian paths"
+  ],
+  "keywords": [
+   "knight's tour",
+   "knight graph",
+   "shaped boards",
+   "holey boards",
+   "tourable boards",
+   "polyomino boards",
+   "open tour",
+   "closed tour"
+  ],
+  "hardness": "moderate.",
+  "commitment_sha256": "14c7825cedfa3832ece08dbc579b27fa612dca03b91a42d7d6c6824085c499d5",
+  "issue": {
+   "number": 4,
+   "url": "https://github.com/pursekeeper/claims/issues/4",
+   "created_at": "2026-09-16T22:26:20Z"
+  },
+  "reviews": [],
+  "prior_art": [],
+  "verified": null
+ },
+ {
+  "n": 7,
+  "title": "Correction to the published count of open-tourable 9-cell boards",
+  "file": "claims/07-nine-cell-open-tour-boards-correction.md",
+  "status": "open",
+  "field_tags": [
+   "recreational mathematics",
+   "chess",
+   "polyominoes",
+   "correction"
+  ],
+  "keywords": [
+   "knight's tour",
+   "9-cell boards",
+   "smallest tourable boards",
+   "geometrically distinct tours",
+   "Jelliss",
+   "Knight's Tour Notes"
+  ],
+  "hardness": "trivial (1285 free 9-ominoes; seconds in Python).",
+  "commitment_sha256": "e81f9c541355576dff79c96cd137a5373cceabb024848afcae80fa0f8223b9ac",
+  "issue": {
+   "number": 5,
+   "url": "https://github.com/pursekeeper/claims/issues/5",
+   "created_at": "2026-09-16T22:26:23Z"
+  },
+  "reviews": [],
+  "prior_art": [],
+  "verified": null
+ },
+ {
+  "n": 8,
+  "title": "Geometrically distinct knight's tours on polyomino boards",
+  "file": "claims/08-knight-tours-polyomino-boards.md",
+  "status": "open",
+  "field_tags": [
+   "recreational mathematics",
+   "chess",
+   "polyominoes",
+   "enumeration"
+  ],
+  "keywords": [
+   "knight's tour",
+   "number of tours",
+   "symmetric tours",
+   "shaped boards",
+   "Burnside counting"
+  ],
+  "hardness": "cheap; n = 16 in about 75 s single-threaded in C.",
+  "commitment_sha256": "9a00287f006817533ec7e565c035f209501bfc14646d558cd43bf6e4c6bbdb50",
+  "issue": {
+   "number": 6,
+   "url": "https://github.com/pursekeeper/claims/issues/6",
+   "created_at": "2026-09-16T22:26:25Z"
+  },
+  "reviews": [],
+  "prior_art": [],
+  "verified": null
+ },
+ {
+  "n": 9,
+  "title": "Polyknights admitting a knight's tour",
+  "file": "claims/09-polyknight-tours.md",
+  "status": "open",
+  "field_tags": [
+   "recreational mathematics",
+   "chess",
+   "polyforms",
+   "enumeration"
+  ],
+  "keywords": [
+   "polyknight",
+   "knight-connected cell sets",
+   "knight's tour",
+   "Hamiltonian path"
+  ],
+  "hardness": "cheap; n = 10 (28.",
+  "commitment_sha256": "8eaa9951905b96f9177962454424318e1535ad81cba7d42de9b36dda25387378",
+  "issue": {
+   "number": 7,
+   "url": "https://github.com/pursekeeper/claims/issues/7",
+   "created_at": "2026-09-16T22:26:28Z"
+  },
+  "reviews": [],
+  "prior_art": [],
+  "verified": null
+ },
+ {
+  "n": 10,
+  "title": "Loop number of a polyomino's mirror curve equals the GF(2) nullity of its Laplacian",
+  "file": "claims/10-mirror-curve-loops-gf2-nullity.md",
+  "status": "open",
+  "field_tags": [
+   "combinatorics",
+   "knot theory",
+   "graph theory",
+   "polyominoes"
+  ],
+  "keywords": [
+   "mirror curve",
+   "Celtic knot",
+   "medial graph",
+   "straight-ahead walk",
+   "left-right path",
+   "spanning trees parity",
+   "Laplacian over GF(2)",
+   "bicycle space",
+   "Tutte polynomial at (-1",
+   "-1)"
+  ],
+  "hardness": "part (a) is seconds in Python; part (b) to n = 17 (50,107,909 free polyominoes, one determinant each) is about 40 CPU-minutes in C with an exact integer determinant, or seconds per n for n <= 12.",
+  "commitment_sha256": "aeba692072536677a93027244e98d5d37063e8f9f27055161693b0a612de4ec0",
+  "issue": {
+   "number": 8,
+   "url": "https://github.com/pursekeeper/claims/issues/8",
+   "created_at": "2026-09-16T22:26:30Z"
+  },
+  "reviews": [],
+  "prior_art": [],
+  "verified": null
+ },
+ {
+  "n": 11,
+  "title": "Spanning-tree statistics of free polyominoes",
+  "file": "claims/11-spanning-tree-statistics-polyominoes.md",
+  "status": "reserve",
+  "field_tags": [
+   "combinatorics",
+   "polyominoes",
+   "spanning trees",
+   "extremal graph theory"
+  ],
+  "keywords": [
+   "number of spanning trees",
+   "Kirchhoff",
+   "matrix-tree theorem",
+   "polyomino cell graph",
+   "unicyclic polyominoes",
+   "maximum spanning trees"
+  ],
+  "hardness": "n <= 13 in a couple of minutes in C; n = 17 about 40 CPU-minutes (the same run also yields the two following claims).",
+  "commitment_sha256": "d984708c20adc9b7c583f9a2738860fa8aa60f493b4fef31c1e3d3235768855b",
+  "issue": null,
+  "reviews": [],
+  "prior_art": [],
+  "verified": null
+ },
+ {
+  "n": 12,
+  "title": "Independent-set and domino-tiling statistics of free polyominoes",
+  "file": "claims/12-independent-sets-domino-tilings-polyominoes.md",
+  "status": "reserve",
+  "field_tags": [
+   "combinatorics",
+   "polyominoes",
+   "statistical mechanics",
+   "hard squares",
+   "dimers"
+  ],
+  "keywords": [
+   "independent sets",
+   "hard-square model",
+   "Merrifield-Simmons index",
+   "domino tilings",
+   "perfect matchings",
+   "polyomino cell graph"
+  ],
+  "hardness": "as for the previous claim (same enumeration run).",
+  "commitment_sha256": "daa62d6ab8bd60a8338910760440fe8dc6b269d0d9f1cab8dc29689da1350c08",
+  "issue": null,
+  "reviews": [],
+  "prior_art": [],
+  "verified": null
+ },
+ {
+  "n": 13,
+  "title": "Hamiltonian paths and cycles in the inner duals of polyhexes and polyiamonds",
+  "file": "claims/13-polyhex-polyiamond-inner-dual-hamiltonian.md",
+  "status": "open",
+  "field_tags": [
+   "combinatorics",
+   "polyforms",
+   "chemical graph theory",
+   "Hamiltonian paths",
+   "lattice statistics"
+  ],
+  "keywords": [
+   "polyhex",
+   "polyiamond",
+   "inner dual",
+   "dualist",
+   "Hamiltonian path",
+   "Hamiltonian cycle",
+   "self-avoiding walk vertex sets",
+   "triangular lattice",
+   "honeycomb lattice"
+  ],
+  "hardness": "cheap to moderate; polyhexes to n = 15 (76.",
+  "commitment_sha256": "304a338eafe5475a5996f07250d08467d326464cc6aef6607a3406211e5e9784",
+  "issue": {
+   "number": 9,
+   "url": "https://github.com/pursekeeper/claims/issues/9",
+   "created_at": "2026-09-16T22:26:33Z"
+  },
+  "reviews": [],
+  "prior_art": [],
+  "verified": null
+ },
+ {
+  "n": 14,
+  "title": "Hamiltonian induced subgraphs of the honeycomb lattice with more than one Hamiltonian cycle",
+  "file": "claims/14-honeycomb-unique-hamiltonian-cycle.md",
+  "status": "open",
+  "field_tags": [
+   "graph theory",
+   "lattice statistics",
+   "self-avoiding polygons",
+   "honeycomb lattice"
+  ],
+  "keywords": [
+   "honeycomb lattice",
+   "hexagonal lattice",
+   "induced subgraph",
+   "unique Hamiltonian cycle",
+   "self-avoiding polygon determined by vertex set",
+   "polyiamond inner dual"
+  ],
+  "hardness": "part (b) is instant; part (a) to 36 vertices requires enumerating honeycomb self-avoiding polygons to length 36 (or polyiamonds to 36 cells, which is heavier) and testing cycle counts only for vertex sets with chords, about 10-15 minutes in C.",
+  "commitment_sha256": "8e64caf0e880cba217dce6b54d6c0fcdf35816ee00b4be060c8096d8a8b9f299",
+  "issue": {
+   "number": 10,
+   "url": "https://github.com/pursekeeper/claims/issues/10",
+   "created_at": "2026-09-16T22:26:36Z"
+  },
+  "reviews": [],
+  "prior_art": [],
+  "verified": null
+ },
+ {
+  "n": 15,
+  "title": "Polyhexes whose inner dual is a single cycle",
+  "file": "claims/15-ring-polyhexes.md",
+  "status": "open",
+  "field_tags": [
+   "combinatorics",
+   "polyforms",
+   "enumeration"
+  ],
+  "keywords": [
+   "polyhex",
+   "inner dual is a cycle",
+   "ouroboros polyhex",
+   "ring polyhex",
+   "hexagonal polyomino"
+  ],
+  "hardness": "trivial (seconds to n = 12, about a minute for n = 13).",
+  "commitment_sha256": "efdeec5b7a0602de014b0ac039114806133e3e01d7647e2cb0f98ca187b18e06",
+  "issue": {
+   "number": 11,
+   "url": "https://github.com/pursekeeper/claims/issues/11",
+   "created_at": "2026-09-16T22:26:38Z"
+  },
+  "reviews": [],
+  "prior_art": [],
+  "verified": null
+ },
+ {
+  "n": 16,
+  "title": "Ejectives versus the velar nasal in PHOIBLE: contingency tables",
+  "file": "claims/16-phoible-ejectives-velar-nasal.md",
+  "status": "open",
+  "field_tags": [
+   "phonological typology",
+   "phoneme inventories",
+   "databases"
+  ],
+  "keywords": [
+   "PHOIBLE",
+   "ejective consonants",
+   "velar nasal",
+   "raisedLarynxEjective",
+   "phoneme inventory co-occurrence"
+  ],
+  "hardness": "trivial (pandas, under a minute).",
+  "commitment_sha256": "1db775a17f161d41fa01d052910c36ebc0f0b6399f0075e206ef531a6c555693",
+  "issue": {
+   "number": 12,
+   "url": "https://github.com/pursekeeper/claims/issues/12",
+   "created_at": "2026-09-16T22:26:41Z"
+  },
+  "reviews": [],
+  "prior_art": [],
+  "verified": null
+ },
+ {
+  "n": 17,
+  "title": "Bound passive versus bound causative in Grambank: contingency tables",
+  "file": "claims/17-grambank-passive-causative.md",
+  "status": "open",
+  "field_tags": [
+   "grammatical typology",
+   "morphology",
+   "databases"
+  ],
+  "keywords": [
+   "Grambank",
+   "GB147",
+   "GB155",
+   "GB302",
+   "morphological passive",
+   "causative affix",
+   "valency-changing morphology",
+   "CLDF"
+  ],
+  "hardness": "trivial (pandas, seconds).",
+  "commitment_sha256": "da4eaeb23c7c52760e97c14f4b38c5c980fe86f498c124c834f8ac2d66ee2bf7",
+  "issue": {
+   "number": 13,
+   "url": "https://github.com/pursekeeper/claims/issues/13",
+   "created_at": "2026-09-16T22:26:43Z"
+  },
+  "reviews": [],
+  "prior_art": [],
+  "verified": null
+ }
+]
