@@ -1,0 +1,14 @@
+{
+ "label": "liutingqiu-claim4",
+ "stamp": "20260917T135048Z",
+ "submission_sha256": "dc4720e5ecfce7f1e2a20350a6bf674f5b32c5c6c6dd7a588559371fa9ca23cb",
+ "exit_code": 0,
+ "wall_seconds": 1,
+ "limits": {
+  "wall_seconds": 600,
+  "cpus": 2,
+  "memory": "4g",
+  "network": "none"
+ },
+ "image": "pursekeeper/rederive:v0"
+}

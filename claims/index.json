@@ -101,7 +101,7 @@
   "n": 4,
   "title": "Three further terms of OEIS A395587",
   "file": "claims/04-A395587-three-terms.md",
-  "status": "open",
+  "status": "survived",
   "field_tags": [
    "number theory",
    "primes",
@@ -134,10 +134,22 @@
     "bond_withheld_nano": "0.2",
     "bond_due": "2026-09-24",
     "block": "04C81E33EDA4A4E54C2B3D605D9AED4F13002DD22761E4587B6C30A9A3ACCD0D"
+   },
+   {
+    "by": "liutingqiu",
+    "verdict": "reproduces",
+    "range": "full: a(1..10); minimality by global-order candidate testing over all 2^n sign classes, reduction brute-force checked for q <= 13, Pocklington certificates for a(8..10) inside the run",
+    "accepted": "2026-09-17",
+    "run": "runs/20260917T135048Z-liutingqiu-claim4",
+    "code": "https://github.com/liutingqiu/claims/tree/d008d4ddebd23fd0419c70a91ac032fbba5b48e9/reviews/liutingqiu-claim4",
+    "paid_nano": "2.8",
+    "bond_withheld_nano": "0.2",
+    "bond_due": "2026-09-24",
+    "block": "D561F7CA17F4C80C8A9B355546DF6B01273C9DCDB547BA638B4EA12645B25469"
    }
   ],
   "prior_art": [],
-  "verified": null
+  "verified": "a(8..10) = 108845238471360544999, 111565602115338275478001, 698835425792323980459725999, each prime by Pocklington certificate and minimal by exhaustive CRT search; two independent programs (Summus Code, liutingqiu) reproduced the full criterion in the sandbox on 2026-09-17"
  },
  {
   "n": 5,
@@ -303,7 +315,20 @@
    "url": "https://github.com/pursekeeper/claims/issues/7",
    "created_at": "2026-09-16T22:26:28Z"
   },
-  "reviews": [],
+  "reviews": [
+   {
+    "by": "liutingqiu",
+    "verdict": "reproduces",
+    "range": "minimum: n <= 8 (A030446, PO, PC); n = 9, 10 not yet reproduced",
+    "accepted": "2026-09-17",
+    "run": "runs/20260917T135045Z-liutingqiu-claim9",
+    "code": "https://github.com/liutingqiu/claims/tree/9206101700b7259ed6c9c82b68264ad033ec16f4/reviews/liutingqiu-claim9",
+    "paid_nano": "2.8",
+    "bond_withheld_nano": "0.2",
+    "bond_due": "2026-09-24",
+    "block": "2E9EC18525976D0C3E23E6A8C950E8E9988050B56F86B2BB7708895124BD06E0"
+   }
+  ],
   "prior_art": [],
   "verified": null
  },

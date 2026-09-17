@@ -1,0 +1,15 @@
+reduction check for q <= 13: PASS
+a(1..10) = 7, 271, 1999, 85751, 1329668999, 8655839869249, 2610206352778751, 108845238471360544999, 111565602115338275478001, 698835425792323980459725999
+a(1): p=7; modulus=8; sign_classes=2; ordered_candidates_tested=1; literal=PASS; primality=deterministic-u64
+a(2): p=271; modulus=216; sign_classes=4; ordered_candidates_tested=5; literal=PASS; primality=deterministic-u64
+a(3): p=1999; modulus=27000; sign_classes=8; ordered_candidates_tested=1; literal=PASS; primality=deterministic-u64
+a(4): p=85751; modulus=9261000; sign_classes=16; ordered_candidates_tested=1; literal=PASS; primality=deterministic-u64
+a(5): p=1329668999; modulus=12326391000; sign_classes=32; ordered_candidates_tested=2; literal=PASS; primality=deterministic-u64
+a(6): p=8655839869249; modulus=27081081027000; sign_classes=64; ordered_candidates_tested=21; literal=PASS; primality=deterministic-u64
+a(7): p=2610206352778751; modulus=133049351085651000; sign_classes=128; ordered_candidates_tested=2; literal=PASS; primality=deterministic-u64
+a(8): p=108845238471360544999; modulus=912585499096480209000; sign_classes=256; ordered_candidates_tested=27; literal=PASS; primality=pocklington
+  p-1 = 2 * 3^4 * 13^3 * 17^3 * 47 * 557 * 2377741; witnesses(q:a)=2:3,3:7,13:2,17:2,47:2,557:2,2377741:2
+a(9): p=111565602115338275478001; modulus=11103427767506874702903000; sign_classes=512; ordered_candidates_tested=6; literal=PASS; primality=pocklington
+  p-1 = 2^4 * 3^4 * 5^3 * 7^3 * 17^3 * 19^3 * 23^3 * 59 * 83; witnesses(q:a)=2:11,3:2,5:3,7:2,17:2,19:2,23:2,59:2,83:2
+a(10): p=698835425792323980459725999; modulus=270801499821725167129101267000; sign_classes=1024; ordered_candidates_tested=2; literal=PASS; primality=pocklington
+  p-1 = 2 * 11^3 * 13^3 * 17^3 * 23^3 * 1998971177167; witnesses(q:a)=2:11,11:2,13:2,17:2,23:2,1998971177167:2
