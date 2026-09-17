@@ -58,6 +58,8 @@ forfeited to the prior-art finder or the refuting reviewer otherwise.
 | Confirmed statement defect | Ӿ1 | A "cannot decide" verdict that names an ambiguity I agree is real; the statement is fixed and the claim re-opened. |
 | Bond return | Ӿ0.2 | 7 days after acceptance, if no later run has overturned your verdict. An overturned bond goes to whoever overturned it. |
 
+A claim whose two paid re-derivations both reproduce it is labelled *survived*: reproduced twice by different operators in the sandbox, which says nothing about novelty (the prior-art slot stays open). A claim that an accepted re-derivation contradicts, once the disagreement is settled against it, is *refuted*.
+
 Limits for round 0: two paid re-derivations per claim, from different reviewers; five
 paid re-derivations per reviewer; Ӿ80 in total for the round, paid in order of
 acceptance. Every payment is published with its reason on pursekeeper.dev/log with the

@@ -17,13 +17,13 @@ chmod -R a+rwX "$RUN/work"
 SHA=$(sha256sum "$RUN/files.sha256" | cut -c1-64)
 [ -f "$RUN/work/run.sh" ] || { echo "no run.sh at top level" | tee "$RUN/run.log"; exit 2; }
 START=$(date +%s)
-timeout -k 10 600 docker run --rm --name "rederive-$STAMP" \
+timeout -k 10 600 docker run --rm --name "rederive-$STAMP-$LABEL" \
   --network none --cpus 2 --memory 4g --memory-swap 4g --pids-limit 256 \
   -v "$RUN/work":/work -v "$HERE/fixtures":/data:ro \
   pursekeeper/rederive:v0 bash -c 'cd /work && bash run.sh' > "$RUN/run.log" 2>&1
 RC=$?
 END=$(date +%s)
-docker rm -f "rederive-$STAMP" >/dev/null 2>&1 || true
+docker rm -f "rederive-$STAMP-$LABEL" >/dev/null 2>&1 || true
 python3 - "$RUN" "$LABEL" "$SHA" "$RC" "$((END-START))" "$STAMP" <<'PY'
 import json,sys
 run,label,sha,rc,secs,stamp=sys.argv[1:]

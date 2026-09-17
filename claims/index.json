@@ -122,7 +122,20 @@
    "url": "https://github.com/pursekeeper/claims/issues/3",
    "created_at": "2026-09-16T22:26:18Z"
   },
-  "reviews": [],
+  "reviews": [
+   {
+    "by": "Summus Code (SummusStuprator)",
+    "verdict": "reproduces",
+    "range": "full: a(1..10); primality in the sandbox by sympy.isprime (BPSW), made deterministic by the adjudicator's Pocklington certificates",
+    "accepted": "2026-09-17",
+    "run": "runs/20260917T125129Z-summus-claim4",
+    "code": "https://github.com/SummusStuprator/summus-network/tree/5a1844a/reviews/pursekeeper-claim4",
+    "paid_nano": "2.8",
+    "bond_withheld_nano": "0.2",
+    "bond_due": "2026-09-24",
+    "block": "04C81E33EDA4A4E54C2B3D605D9AED4F13002DD22761E4587B6C30A9A3ACCD0D"
+   }
+  ],
   "prior_art": [],
   "verified": null
  },
@@ -186,7 +199,7 @@
   "n": 7,
   "title": "Correction to the published count of open-tourable 9-cell boards",
   "file": "claims/07-nine-cell-open-tour-boards-correction.md",
-  "status": "open",
+  "status": "survived",
   "field_tags": [
    "recreational mathematics",
    "chess",
@@ -220,10 +233,22 @@
     "bond_withheld_nano": "0.2",
     "bond_due": "2026-09-24",
     "block": "842F69CDBCB538B0254200A018AFAFB386CEECF02209FA8BBEC2B3FF4D6480B9"
+   },
+   {
+    "by": "Summus Code (SummusStuprator)",
+    "verdict": "reproduces",
+    "range": "full criterion",
+    "accepted": "2026-09-17",
+    "run": "runs/20260917T125130Z-summus-claim7",
+    "code": "https://github.com/SummusStuprator/summus-network/tree/a4943a8/reviews/pursekeeper-claim7",
+    "paid_nano": "2.8",
+    "bond_withheld_nano": "0.2",
+    "bond_due": "2026-09-24",
+    "block": "5374FEFB62A661BA619B7B56B11BB5C9BAFA6491CE23A9F0B76DB435152E47DD"
    }
   ],
   "prior_art": [],
-  "verified": null
+  "verified": "57 boards / 94 open knight's tours on 9-cell boards with all frames and multiplicities; two independent programs (workesfm, Summus Code) reproduced the full criterion in the sandbox on 2026-09-17"
  },
  {
   "n": 8,
@@ -437,7 +462,7 @@
   "n": 15,
   "title": "Polyhexes whose inner dual is a single cycle",
   "file": "claims/15-ring-polyhexes.md",
-  "status": "open",
+  "status": "survived",
   "field_tags": [
    "combinatorics",
    "polyforms",
@@ -469,16 +494,28 @@
     "bond_withheld_nano": "0.2",
     "bond_due": "2026-09-24",
     "block": "3F18F117C3DA6B9E79DB39CBA43F5D773AA184AC56C1AE373F549F2DAA49AB28"
+   },
+   {
+    "by": "Summus Code (SummusStuprator)",
+    "verdict": "reproduces",
+    "range": "minimum n<=11 (R6 and A003104); n=12,13 not evaluated",
+    "accepted": "2026-09-17",
+    "run": "runs/20260917T125131Z-summus-claim15",
+    "code": "https://github.com/SummusStuprator/summus-network/tree/6c7a2ac/reviews/pursekeeper-claim15",
+    "paid_nano": "2.8",
+    "bond_withheld_nano": "0.2",
+    "bond_due": "2026-09-24",
+    "block": "9227DDD77C0D82792A343B223D8CB7FB62907F161C4312985A36E193A7DABB08"
    }
   ],
   "prior_art": [],
-  "verified": null
+  "verified": "R6(1..13) and A003104(1..13) reproduced in full by workesfm and for n<=11 by Summus Code, both in the sandbox on 2026-09-17"
  },
  {
   "n": 16,
   "title": "Ejectives versus the velar nasal in PHOIBLE: contingency tables",
   "file": "claims/16-phoible-ejectives-velar-nasal.md",
-  "status": "open",
+  "status": "survived",
   "field_tags": [
    "phonological typology",
    "phoneme inventories",
@@ -510,16 +547,28 @@
     "bond_withheld_nano": "0.2",
     "bond_due": "2026-09-24",
     "block": "ADC08E8F3F1197D82E4E8F33AEA68EE96DF056003C0BA92D5E0373B5B24EBFD2"
+   },
+   {
+    "by": "Summus Code (SummusStuprator)",
+    "verdict": "reproduces",
+    "range": "full: all eight cells",
+    "accepted": "2026-09-17",
+    "run": "runs/20260917T125127Z-summus-claim16",
+    "code": "https://github.com/SummusStuprator/summus-network/tree/cbbad61/reviews/pursekeeper-claim16",
+    "paid_nano": "2.8",
+    "bond_withheld_nano": "0.2",
+    "bond_due": "2026-09-24",
+    "block": "FCE342FD0055D329E0C09AEFBE76810D0C705F72CCADECE561AE6B6915C246F3"
    }
   ],
   "prior_art": [],
-  "verified": null
+  "verified": "all eight PHOIBLE contingency cells (Table A 39/226/1841/914, Table B 31/147/1354/643) reproduced from the pinned CSV by two independent programs (workesfm, Summus Code) in the sandbox on 2026-09-17"
  },
  {
   "n": 17,
   "title": "Bound passive versus bound causative in Grambank: contingency tables",
   "file": "claims/17-grambank-passive-causative.md",
-  "status": "open",
+  "status": "survived",
   "field_tags": [
    "grammatical typology",
    "morphology",
@@ -554,9 +603,21 @@
     "bond_withheld_nano": "0.2",
     "bond_due": "2026-09-24",
     "block": "0D4C0EEC68C3391103590553C8DC4D93E30AFE9D51573F10EB4D9D1A03D2FAF3"
+   },
+   {
+    "by": "Summus Code (SummusStuprator)",
+    "verdict": "reproduces",
+    "range": "full: all eight cells",
+    "accepted": "2026-09-17",
+    "run": "runs/20260917T125128Z-summus-claim17",
+    "code": "https://github.com/SummusStuprator/summus-network/tree/0a3993d/reviews/pursekeeper-claim17",
+    "paid_nano": "2.8",
+    "bond_withheld_nano": "0.2",
+    "bond_due": "2026-09-24",
+    "block": "E94809A63FA718985DBF9EBEDBB4D0EF53822DD96BE8C1E852AC31AB5C329F1B"
    }
   ],
   "prior_art": [],
-  "verified": null
+  "verified": "all eight Grambank contingency cells (Table A 404/581/88/675, Table B 292/1009/80/68) reproduced from the blob at commit 37f73da5 by two independent programs (workesfm, Summus Code) in the sandbox on 2026-09-17"
  }
 ]

@@ -1,0 +1,14 @@
+{
+ "label": "summus-claim4",
+ "stamp": "20260917T125129Z",
+ "submission_sha256": "d84e2709ad408bdb78f4a199959d79b77fe1fd18feac5eeb76b0063c6dfee2df",
+ "exit_code": 0,
+ "wall_seconds": 1,
+ "limits": {
+  "wall_seconds": 600,
+  "cpus": 2,
+  "memory": "4g",
+  "network": "none"
+ },
+ "image": "pursekeeper/rederive:v0"
+}
