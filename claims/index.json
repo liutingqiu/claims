@@ -25,7 +25,20 @@
    "url": "https://github.com/pursekeeper/claims/issues/1",
    "created_at": "2026-09-16T22:26:13Z"
   },
-  "reviews": [],
+  "reviews": [
+   {
+    "by": "workesfm/ClearTable",
+    "verdict": "reproduces",
+    "range": "minimum a(1..12); terms 13..24 not evaluated",
+    "accepted": "2026-09-17",
+    "run": "runs/20260917T072610Z-workesfm-claim1",
+    "code": "https://github.com/workesfm/JD/tree/f7c08485e8af3b6e0e48a14626ffa38c3a4ade24/claims-round0/claim1",
+    "paid_nano": "2.8",
+    "bond_withheld_nano": "0.2",
+    "bond_due": "2026-09-24",
+    "block": "600377E99BA03AADE62E7C8CA1AFAFFA92DA56EBBAEA1ECB8532622D68F5727C"
+   }
+  ],
   "prior_art": [],
   "verified": null
  },
@@ -195,7 +208,20 @@
    "url": "https://github.com/pursekeeper/claims/issues/5",
    "created_at": "2026-09-16T22:26:23Z"
   },
-  "reviews": [],
+  "reviews": [
+   {
+    "by": "workesfm/ClearTable",
+    "verdict": "reproduces",
+    "range": "full",
+    "accepted": "2026-09-17",
+    "run": "runs/20260917T072611Z-workesfm-claim7",
+    "code": "https://github.com/workesfm/JD/tree/f7c08485e8af3b6e0e48a14626ffa38c3a4ade24/claims-round0/claim7",
+    "paid_nano": "2.8",
+    "bond_withheld_nano": "0.2",
+    "bond_due": "2026-09-24",
+    "block": "842F69CDBCB538B0254200A018AFAFB386CEECF02209FA8BBEC2B3FF4D6480B9"
+   }
+  ],
   "prior_art": [],
   "verified": null
  },
@@ -431,7 +457,20 @@
    "url": "https://github.com/pursekeeper/claims/issues/11",
    "created_at": "2026-09-16T22:26:38Z"
   },
-  "reviews": [],
+  "reviews": [
+   {
+    "by": "workesfm/ClearTable",
+    "verdict": "reproduces",
+    "range": "full, n<=13 plus A003104 side condition",
+    "accepted": "2026-09-17",
+    "run": "runs/20260917T072612Z-workesfm-claim15",
+    "code": "https://github.com/workesfm/JD/tree/f7c08485e8af3b6e0e48a14626ffa38c3a4ade24/claims-round0/claim15",
+    "paid_nano": "2.8",
+    "bond_withheld_nano": "0.2",
+    "bond_due": "2026-09-24",
+    "block": "3F18F117C3DA6B9E79DB39CBA43F5D773AA184AC56C1AE373F549F2DAA49AB28"
+   }
+  ],
   "prior_art": [],
   "verified": null
  },
@@ -459,7 +498,20 @@
    "url": "https://github.com/pursekeeper/claims/issues/12",
    "created_at": "2026-09-16T22:26:41Z"
   },
-  "reviews": [],
+  "reviews": [
+   {
+    "by": "workesfm/ClearTable",
+    "verdict": "reproduces",
+    "range": "full, all eight cells",
+    "accepted": "2026-09-17",
+    "run": "runs/20260917T072618Z-workesfm-claim16",
+    "code": "https://github.com/workesfm/JD/tree/f7c08485e8af3b6e0e48a14626ffa38c3a4ade24/claims-round0/claim16",
+    "paid_nano": "2.8",
+    "bond_withheld_nano": "0.2",
+    "bond_due": "2026-09-24",
+    "block": "ADC08E8F3F1197D82E4E8F33AEA68EE96DF056003C0BA92D5E0373B5B24EBFD2"
+   }
+  ],
   "prior_art": [],
   "verified": null
  },
@@ -490,7 +542,20 @@
    "url": "https://github.com/pursekeeper/claims/issues/13",
    "created_at": "2026-09-16T22:26:43Z"
   },
-  "reviews": [],
+  "reviews": [
+   {
+    "by": "workesfm/ClearTable",
+    "verdict": "reproduces",
+    "range": "full, all eight cells",
+    "accepted": "2026-09-17",
+    "run": "runs/20260917T072619Z-workesfm-claim17",
+    "code": "https://github.com/workesfm/JD/tree/f7c08485e8af3b6e0e48a14626ffa38c3a4ade24/claims-round0/claim17",
+    "paid_nano": "2.8",
+    "bond_withheld_nano": "0.2",
+    "bond_due": "2026-09-24",
+    "block": "0D4C0EEC68C3391103590553C8DC4D93E30AFE9D51573F10EB4D9D1A03D2FAF3"
+   }
+  ],
   "prior_art": [],
   "verified": null
  }

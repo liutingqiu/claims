@@ -8,13 +8,13 @@ For every accepted claim the field tags, the keywords and the one-line *verified
 
 | # | Claim | Field tags | Status | Issue | Reviews accepted | Verified (what, how) |
 |---|---|---|---|---|---|---|
-| 1 | [Derangements avoiding the pattern 1234](01-derangements-avoiding-1234.md) | combinatorics, permutation patterns, derangements, enumeration | open | [#1](https://github.com/pursekeeper/claims/issues/1) |  |  |
+| 1 | [Derangements avoiding the pattern 1234](01-derangements-avoiding-1234.md) | combinatorics, permutation patterns, derangements, enumeration | open | [#1](https://github.com/pursekeeper/claims/issues/1) | workesfm/ClearTable (reproduces, minimum a(1..12); terms 13..24 not evaluated) |  |
 | 2 | [Derangements avoiding the pattern 4321](02-derangements-avoiding-4321.md) | combinatorics, permutation patterns, derangements, enumeration | reserve |  |  |  |
 | 3 | [Six further terms of OEIS A252653 (rook-walk-coverable polyominoes)](03-A252653-rook-walk-coverable-polyominoes.md) | combinatorics, polyominoes, Hamiltonian paths, graph theory | open | [#2](https://github.com/pursekeeper/claims/issues/2) |  |  |
 | 4 | [Three further terms of OEIS A395587](04-A395587-three-terms.md) | number theory, primes, modular arithmetic, OEIS extension | open | [#3](https://github.com/pursekeeper/claims/issues/3) |  |  |
 | 5 | [Three further terms of OEIS A396786](05-A396786-three-terms.md) | number theory, primes, modular arithmetic, OEIS extension | reserve |  |  |  |
 | 6 | [Knight-connected and knight-tourable polyominoes](06-knight-connected-tourable-polyominoes.md) | recreational mathematics, chess, polyominoes, Hamiltonian paths | open | [#4](https://github.com/pursekeeper/claims/issues/4) |  |  |
-| 7 | [Correction to the published count of open-tourable 9-cell boards](07-nine-cell-open-tour-boards-correction.md) | recreational mathematics, chess, polyominoes, correction | open | [#5](https://github.com/pursekeeper/claims/issues/5) |  |  |
+| 7 | [Correction to the published count of open-tourable 9-cell boards](07-nine-cell-open-tour-boards-correction.md) | recreational mathematics, chess, polyominoes, correction | open | [#5](https://github.com/pursekeeper/claims/issues/5) | workesfm/ClearTable (reproduces, full) |  |
 | 8 | [Geometrically distinct knight's tours on polyomino boards](08-knight-tours-polyomino-boards.md) | recreational mathematics, chess, polyominoes, enumeration | open | [#6](https://github.com/pursekeeper/claims/issues/6) |  |  |
 | 9 | [Polyknights admitting a knight's tour](09-polyknight-tours.md) | recreational mathematics, chess, polyforms, enumeration | open | [#7](https://github.com/pursekeeper/claims/issues/7) |  |  |
 | 10 | [Loop number of a polyomino's mirror curve equals the GF(2) nullity of its Laplacian](10-mirror-curve-loops-gf2-nullity.md) | combinatorics, knot theory, graph theory, polyominoes | open | [#8](https://github.com/pursekeeper/claims/issues/8) |  |  |
@@ -22,9 +22,9 @@ For every accepted claim the field tags, the keywords and the one-line *verified
 | 12 | [Independent-set and domino-tiling statistics of free polyominoes](12-independent-sets-domino-tilings-polyominoes.md) | combinatorics, polyominoes, statistical mechanics, hard squares, dimers | reserve |  |  |  |
 | 13 | [Hamiltonian paths and cycles in the inner duals of polyhexes and polyiamonds](13-polyhex-polyiamond-inner-dual-hamiltonian.md) | combinatorics, polyforms, chemical graph theory, Hamiltonian paths, lattice statistics | open | [#9](https://github.com/pursekeeper/claims/issues/9) |  |  |
 | 14 | [Hamiltonian induced subgraphs of the honeycomb lattice with more than one Hamiltonian cycle](14-honeycomb-unique-hamiltonian-cycle.md) | graph theory, lattice statistics, self-avoiding polygons, honeycomb lattice | open | [#10](https://github.com/pursekeeper/claims/issues/10) |  |  |
-| 15 | [Polyhexes whose inner dual is a single cycle](15-ring-polyhexes.md) | combinatorics, polyforms, enumeration | open | [#11](https://github.com/pursekeeper/claims/issues/11) |  |  |
-| 16 | [Ejectives versus the velar nasal in PHOIBLE: contingency tables](16-phoible-ejectives-velar-nasal.md) | phonological typology, phoneme inventories, databases | open | [#12](https://github.com/pursekeeper/claims/issues/12) |  |  |
-| 17 | [Bound passive versus bound causative in Grambank: contingency tables](17-grambank-passive-causative.md) | grammatical typology, morphology, databases | open | [#13](https://github.com/pursekeeper/claims/issues/13) |  |  |
+| 15 | [Polyhexes whose inner dual is a single cycle](15-ring-polyhexes.md) | combinatorics, polyforms, enumeration | open | [#11](https://github.com/pursekeeper/claims/issues/11) | workesfm/ClearTable (reproduces, full, n<=13 plus A003104 side condition) |  |
+| 16 | [Ejectives versus the velar nasal in PHOIBLE: contingency tables](16-phoible-ejectives-velar-nasal.md) | phonological typology, phoneme inventories, databases | open | [#12](https://github.com/pursekeeper/claims/issues/12) | workesfm/ClearTable (reproduces, full, all eight cells) |  |
+| 17 | [Bound passive versus bound causative in Grambank: contingency tables](17-grambank-passive-causative.md) | grammatical typology, morphology, databases | open | [#13](https://github.com/pursekeeper/claims/issues/13) | workesfm/ClearTable (reproduces, full, all eight cells) |  |
 
 ## Keywords
 

@@ -1,0 +1,14 @@
+{
+ "label": "workesfm-claim16",
+ "stamp": "20260917T072618Z",
+ "submission_sha256": "3c45c4bce7496099891eee16823e08f39383cf8c42b1bd5ca49cdcbae0c81209",
+ "exit_code": 0,
+ "wall_seconds": 1,
+ "limits": {
+  "wall_seconds": 600,
+  "cpus": 2,
+  "memory": "4g",
+  "network": "none"
+ },
+ "image": "pursekeeper/rederive:v0"
+}
