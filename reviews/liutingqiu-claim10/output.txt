@@ -1,0 +1,16 @@
+free_polyominoes(1..12) = 1, 1, 2, 5, 12, 35, 108, 369, 1285, 4655, 17073, 63600
+odd_spanning_tree_counts(1..12) = 1, 1, 2, 4, 11, 28, 86, 273, 915, 3126, 10948, 38782
+n=1 shapes=1 loop_distribution=1:1,2:0,3:0,4:0 mismatches=0
+n=2 shapes=1 loop_distribution=1:1,2:0,3:0,4:0 mismatches=0
+n=3 shapes=2 loop_distribution=1:2,2:0,3:0,4:0 mismatches=0
+n=4 shapes=5 loop_distribution=1:4,2:1,3:0,4:0 mismatches=0
+n=5 shapes=12 loop_distribution=1:11,2:1,3:0,4:0 mismatches=0
+n=6 shapes=35 loop_distribution=1:28,2:7,3:0,4:0 mismatches=0
+n=7 shapes=108 loop_distribution=1:86,2:21,3:1,4:0 mismatches=0
+n=8 shapes=369 loop_distribution=1:273,2:93,3:3,4:0 mismatches=0
+n=9 shapes=1285 loop_distribution=1:915,2:348,3:22,4:0 mismatches=0
+n=10 shapes=4655 loop_distribution=1:3126,2:1426,3:102,4:1 mismatches=0
+n=11 shapes=17073 loop_distribution=1:10948,2:5577,3:544,4:4 mismatches=0
+part_a_total_shapes=23546 total_mismatches=0 maximum_loop_count=4
+independent_directed_ray_tree_subset_checks_through_7=PASS
+verdict=reproduces minimum
