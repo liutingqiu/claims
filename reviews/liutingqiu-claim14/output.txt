@@ -1,0 +1,33 @@
+Enumeration: rooted self-avoiding polygons with fixed directed edge
+n=1 rooted_polygons=0 chorded=0 max_undirected_hamiltonian_cycles=0
+n=2 rooted_polygons=0 chorded=0 max_undirected_hamiltonian_cycles=0
+n=3 rooted_polygons=0 chorded=0 max_undirected_hamiltonian_cycles=0
+n=4 rooted_polygons=0 chorded=0 max_undirected_hamiltonian_cycles=0
+n=5 rooted_polygons=0 chorded=0 max_undirected_hamiltonian_cycles=0
+n=6 rooted_polygons=2 chorded=0 max_undirected_hamiltonian_cycles=1
+n=7 rooted_polygons=0 chorded=0 max_undirected_hamiltonian_cycles=0
+n=8 rooted_polygons=0 chorded=0 max_undirected_hamiltonian_cycles=0
+n=9 rooted_polygons=0 chorded=0 max_undirected_hamiltonian_cycles=0
+n=10 rooted_polygons=10 chorded=10 max_undirected_hamiltonian_cycles=1
+n=11 rooted_polygons=0 chorded=0 max_undirected_hamiltonian_cycles=0
+n=12 rooted_polygons=8 chorded=0 max_undirected_hamiltonian_cycles=1
+n=13 rooted_polygons=0 chorded=0 max_undirected_hamiltonian_cycles=0
+n=14 rooted_polygons=56 chorded=42 max_undirected_hamiltonian_cycles=1
+n=15 rooted_polygons=0 chorded=0 max_undirected_hamiltonian_cycles=0
+n=16 rooted_polygons=96 chorded=64 max_undirected_hamiltonian_cycles=1
+n=17 rooted_polygons=0 chorded=0 max_undirected_hamiltonian_cycles=0
+n=18 rooted_polygons=390 chorded=282 max_undirected_hamiltonian_cycles=1
+n=19 rooted_polygons=0 chorded=0 max_undirected_hamiltonian_cycles=0
+n=20 rooted_polygons=920 chorded=640 max_undirected_hamiltonian_cycles=1
+n=21 rooted_polygons=0 chorded=0 max_undirected_hamiltonian_cycles=0
+n=22 rooted_polygons=3168 chorded=2376 max_undirected_hamiltonian_cycles=1
+n=23 rooted_polygons=0 chorded=0 max_undirected_hamiltonian_cycles=0
+n=24 rooted_polygons=8592 chorded=6320 max_undirected_hamiltonian_cycles=1
+n=25 rooted_polygons=0 chorded=0 max_undirected_hamiltonian_cycles=0
+n=26 rooted_polygons=28002 chorded=21424 max_undirected_hamiltonian_cycles=1
+n=27 rooted_polygons=0 chorded=0 max_undirected_hamiltonian_cycles=0
+n=28 rooted_polygons=81368 chorded=62328 max_undirected_hamiltonian_cycles=1
+n=29 rooted_polygons=0 chorded=0 max_undirected_hamiltonian_cycles=0
+n=30 rooted_polygons=259990 chorded=204240 max_undirected_hamiltonian_cycles=1
+S38 vertices=38 edges=49 degree2=16 degree3=22 cycles=2
+verdict=reproduces minimum (part (a) through 30; part (b) in full)
